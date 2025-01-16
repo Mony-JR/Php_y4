@@ -1,0 +1,48 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+    color: dodgerblue;
+    cursor: pointer;
+    
+}
+.lst-nav{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+
+a:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+.input-login{
+    background-color: blanchedalmond;
+}
+h1{
+    width: 10%;
+    background-color: aqua;
+    margin: auto;
+    text-align: center;
+}
+
+.clg{
+    width: 200px;
+    height: 200px;
+    background: #000;
+    margin: auto;
+    position: relative;
+}
+.panha{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    /* z-index: -1; */
+}

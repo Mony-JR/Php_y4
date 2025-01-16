@@ -1,0 +1,110 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../style/default.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Form</h1>
+    <div class="menu">
+      <ul class="lst-nav">
+        <li class="nav"><a href="../index.htm">Home</a></li>
+        <li class="nav"><a href="text.htm">Text</a></li>
+        <li class="nav"><a href="table.htm">Table</a></li>
+        <li class="nav"><a href="list.htm">List</a></li>
+        <li class="nav"><a href="image.htm">Image-Media</a></li>
+        <li class="nav"><a href="#">Form</a></li>
+      </ul>
+    </div>
+    <div class="login">
+      <h2 style="text-align: start">Login</h2>
+      <form action="" method="post">
+        <label for="username" class="label-login">Username </label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          class="input-login"
+        /><br />
+        <label for="pass" class="label-login">Password </label>
+        <input
+          type="password"
+          id="pass"
+          name="pass"
+          class="input-login"
+        /><br />
+        <label for="email" class="label-login">Email </label>
+        <input type="email" id="email" name="email" class="input-login" /><br>
+
+        <label for="chk1" class="label-login">Check Box 1 </label>
+        <input
+          type="checkbox"
+          id="chk1"
+          name="chk1"
+          class="input-login"
+        /><br />
+        <label for="chk2" class="label-login">Check Box 2 </label>
+        <input
+          type="checkbox"
+          id="chk2"
+          name="chk2"
+          class="input-login"
+        /><br />
+        <label for="chk3" class="label-login">Check Box 3 </label>
+        <input
+          type="checkbox"
+          id="chk3"
+          name="chk3"
+          class="input-login"
+        /><br />
+
+        <label for="rdo1" class="label-login">Radio 1</label>
+        <input type="radio" id="rdo1" name="rdo1" class="input-login" /><br />
+        <label for="rdo2" class="label-login">Radio 2</label>
+        <input type="radio" id="rdo2" name="rdo1" class="input-login" /><br />
+        <label for="rdo3" class="label-login">Radio 3</label>
+        <input type="radio" id="rdo3" name="rdo1" class="input-login" /><br />
+
+        <label for="num" class="label-login">Number</label>
+        <input type="number" id="num" name="num" class="input-login" /><br />
+        <label for="dat" class="label-login">Date</label>
+        <input type="date" id="dat" name="dat" class="input-login" /><br />
+        <label for="tim" class="label-login">Time</label>
+        <input type="time" id="tim" name="tim" class="input-login" /><br />
+        <label for="clr" class="label-login">Color</label>
+        <input type="color" id="clr" name="clr" class="input-login" /><br />
+        <label for="fil" class="label-login">File</label>
+        <input type="file" id="fil" name="fil" class="input-login" /><br />
+        <label for="tea" class="label-login">Text Area</label>
+        <textarea
+          rows="5"
+          id="tea"
+          name="tea"
+          style="margin-bottom: 20px"
+        ></textarea
+        ><br />
+        <label for="ddl">Drop Down List</label>
+        <select name="ddl" id="ddl">
+          <option value="">Option1</option>
+          <option value="">Option2</option>
+          <option value="">Option3</option></select
+        ><br />
+
+        <label for="lst">List</label>
+        <select name="lst" id="lst" multiple>
+          <option value="">Option1</option>
+          <option value="">Option2</option>
+          <option value="">Option3</option>
+        </select>
+
+        <button id="btnLogin" onclick="alert('Hello World')">Login</button>
+      </form>
+    </div>
+
+    <div>
+      <div class="clg">
+        <div class="panha"></div>
+      </div>
+     
+    </div>
+  </body>
+</html>
