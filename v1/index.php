@@ -20,6 +20,7 @@
         <button type="submit" name="submit">Create Account</button>
     </form>
 
+    <a href="./User.php">ListUser</a>
     <?php 
     if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])) {
         // MySQL connection details
