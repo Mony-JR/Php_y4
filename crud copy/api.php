@@ -4,6 +4,7 @@ include 'db.php';
 // Get the request method
 $method = $_SERVER['REQUEST_METHOD'];
 
+
 switch ($method) {
     case "GET":
         $id = isset($_GET['id']) ? intval($_GET['id']) : 0;
